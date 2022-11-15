@@ -1,0 +1,97 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap'); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80');
+    color:#fff;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.counter{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+    gap:15px;
+    
+}
+
+p{
+    font-size: 50px;
+
+}
+.newyear{
+    font-size: 50px;
+    font-weight: 800px;
+    margin-top:30px;
+}
+
+.box{
+    width:150px;
+    height:70px;
+    text-align:center;
+
+    
+}
+
+.box h2{
+    font-size:35px;
+    
+}
+
+.box small{
+    font-size: 35px;
+    
+}
+
+@media (min-width:350px){
+    .newyear{
+        font-size: 60px;
+    }
+    .box{
+        width:50px;
+        height:70px;
+        text-align:center;
+        
+    }
+    .box small{
+        font-size: 15px;
+    }
+    .box h2{
+        font-size:15px;
+        
+    }
+}
+
+@media (min-width: 768px){
+    .newyear{
+        font-size:100px;
+    }
+    .box{
+        width:150px;
+        height:70px;
+        text-align:center;
+        
+    }
+    .box small{
+        font-size: 45px;
+    }
+    .box h2{
+        font-size:45px;
+        
+    }
+}
